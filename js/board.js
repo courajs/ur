@@ -26,6 +26,7 @@ export default class Board {
     document.querySelector('#game').innerHTML = `
     <div class="board">
       ${this.renderRows()}
+      <div class="black piece b1"></div>
     </div>
       `;
   }
